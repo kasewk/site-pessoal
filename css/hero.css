@@ -1,0 +1,25 @@
+.hero{
+    background-color: #9c5944;
+    color: #E9ECEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    font-size: 2.3em;
+}
+
+.hero-ola{
+    display: block;
+    align-self: stretch;
+    margin-left: 5em;
+    font-weight: lighter;
+}
+
+.hero-apresentacao{
+    font-weight: 400;
+}
+
+.hero-apresentacao-nome{
+    font-weight: 700;
+}
