@@ -1,0 +1,26 @@
+.contato{
+    width: 100%;
+}
+
+.social{
+    display: flex;
+}
+
+.social div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    vertical-align: top;
+}
+
+.social img{
+    width: 3em;
+}
+
+.social span{
+    text-align: center;
+    padding: .2em;
+}
