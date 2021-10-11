@@ -5,3 +5,34 @@ html, body, main, header, footer, main nav {
 	width: 100vw;
 	height: 100vh;
 }
+
+:root{
+	--marrom-principal: #E6CCB2;
+	--hero-color: #E9ECEF;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.secao-img{
+    width: 15em;
+    margin: 3em;
+}
+
+.div-titulo{
+	display: block;
+    border-bottom: .7px solid rgb(68, 66, 66);
+    width: 70%;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.titulo{
+	font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}

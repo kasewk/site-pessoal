@@ -1,0 +1,17 @@
+.tecnologias{
+    height: 30em;
+    background-color: var(--marrom-principal);
+}
+
+.tecnologias-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    width: 40%;
+    height: 15%;
+}

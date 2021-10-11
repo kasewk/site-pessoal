@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: #E6CCB2;
+    background-color: var(--marrom-principal);
     position: sticky;
     top: 0;
     height: 5em;

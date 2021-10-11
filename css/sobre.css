@@ -1,32 +1,5 @@
-.sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: #f3e7dc; */
-    padding: 1em;
-}
-
-.sobre-titulo{
-    display: block;
-    border-bottom: .7px solid rgb(68, 66, 66);
-    width: 70%;
-    text-align: center;
-    margin-bottom: .5em;
-}
-
-.sobre-titulo h2{
-    font-weight: 700;
-    font-size: 1.3em;
-    text-transform: uppercase;
-}
-
-.sobre-img{
-    width: 15em;
-    margin: 3em;
-}
-
 .sobre-texto{
-    /* text-align: justify; */
+    text-align: justify;
     line-height: 1.1;
     font-weight: 400;
     padding:.5em;
