@@ -36,3 +36,14 @@
     padding: 1%;
     text-align: center;
 }
+
+
+@media screen and (min-width: 768px) {
+    .menu-nav{
+        width: 20em;
+    }
+
+    .menu-item{
+        width: 5em;
+    }
+}

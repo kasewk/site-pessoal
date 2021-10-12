@@ -1,5 +1,8 @@
 .contato{
     width: 100%;
+    padding: 0;
+    padding-top: 1em;
+
 }
 
 .social{
@@ -16,11 +19,46 @@
     vertical-align: top;
 }
 
-.social img{
-    width: 3em;
+.social-img{
+    width: 15em;
+    margin: 3em;
 }
 
 .social span{
     text-align: center;
     padding: .2em;
+}
+
+.social a{
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    width: 4em;
+    height: 4em;
+}
+
+@media screen and (min-width: 768px) {
+    .social{
+        margin-top: 2em;
+    }
+    .social-img{
+        width: 33em;
+    }
+    .contato{
+        padding-top: 2.5em;
+    }
+
+    .contato p, .contato span{
+        font-size: 1.3em;
+    }
+
+    .social div{
+        width: 7em;
+    }
+
+    .social a{
+        width: 5em;
+        height: 5em;
+    }
+
 }
