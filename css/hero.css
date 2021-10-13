@@ -1,11 +1,11 @@
 .hero{
-    background-color: #9c5944;
+    background-color: var(--marrom-hero);
     color: #E9ECEF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40%;
+    height: 50%;
     font-size: 2.3em;
 }
 
@@ -13,21 +13,53 @@
     display: block;
     align-self: stretch;
     margin-left: 5em;
+    margin-top: .5em;
     font-weight: lighter;
+}
+
+.bem-vindo{
+    display: block;
+    font-weight: 300;
+    margin: .6em 0 0 .6em;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: animacaoBemvindo 2s ease forwards 3s;
 }
 
 .hero-apresentacao{
     font-weight: 400;
-    display: inline-flex;
+    margin-top: .3em;
+    /* display: inline-flex; */
 }
 
+.texto-dinamico{
+    position: relative;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.texto-dinamico::before,
 .texto-dinamico::after{
     content: "";
     position: absolute;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid red;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
+
+.texto-dinamico::before{
+    background: var(--marrom-hero);
+    animation: digitacao 2s steps(14) 1s forwards;
+}
+
+.texto-dinamico::after{
+    width: .125em;
+    background: black;
+    animation: digitacao 2s steps(14) 1s forwards, pisca 750ms steps(14) infinite;
+    margin-left: .18em;
+}
+
+
 
 .hero-apresentacao-nome{
     font-weight: 700;
@@ -41,6 +73,29 @@
 
     .hero-ola{
         align-self: auto;
+    }
+    
+}
+
+@keyframes digitacao {
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes pisca {
+
+    to{
+        background: transparent;
+    }
+    
+}
+
+@keyframes animacaoBemvindo {
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
     
 }
