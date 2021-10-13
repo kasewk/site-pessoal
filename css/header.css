@@ -3,7 +3,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: var(--marrom-principal);
-    position: sticky;
+    position: fixed;
     top: 0;
     height: 5em;
     box-sizing: border-box;

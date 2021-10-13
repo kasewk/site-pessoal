@@ -18,6 +18,15 @@
 
 .hero-apresentacao{
     font-weight: 400;
+    display: inline-flex;
+}
+
+.texto-dinamico::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid red;
 }
 
 .hero-apresentacao-nome{

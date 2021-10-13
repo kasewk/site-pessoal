@@ -5,24 +5,22 @@
 
 html, body, main, header, main nav {
 	font-family:  'Roboto', sans-serif;
-	overflow-x: hidden;
 	width: 100vw;
 	height: 100vh;
-    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
 :target {
   scroll-margin-top: 5em;
 }
 
-header{
-    overflow-y: hidden;
-}
 
 .secao{
     display: flex;
-    /* transition: all .4s; */
+    transition: all .4s;
     flex-direction: column;
     align-items: center;
     padding: 1em;
