@@ -28,6 +28,10 @@
     padding: 1em;
 }
 
+.card:hover{
+    transform: rotate(-1deg) scale(1.1, 1.1);
+}
+
 .card img{
     height: 103px;
     width: 103px;

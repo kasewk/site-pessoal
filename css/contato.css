@@ -17,6 +17,10 @@
     margin: 1em;
     padding: 1em;
     vertical-align: top;
+    transition: ease 1.5s;
+}
+.social div:hover{
+    transform: rotate(-1deg) scale(1.1, 1.1);
 }
 
 .social-img{

@@ -13,9 +13,7 @@
     padding: 1em;
 }
 
-/* .sobre-conteudo-texto{
-    width: 40em;
-} */
+
 
 .sobre-texto{
     text-align: justify;
@@ -44,11 +42,20 @@
 
     .sobre-conteudo{
         flex-direction: row;
-        padding: 12em;
+        padding: 3em;
     }
 
     .sobre-img{
         width: 30em;
     }
+
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+        .sobre-conteudo-texto{
+    width: 40em;
+}
     
 }
