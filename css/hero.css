@@ -12,9 +12,12 @@
 .hero-ola{
     display: block;
     align-self: stretch;
-    margin-left: 5em;
+    margin-left: 4em;
     margin-top: .5em;
     font-weight: lighter;
+    opacity: 0;
+    transform: translateY(-3rem);
+    animation: animacaoBemvindo 2s ease forwards;
 }
 
 .bem-vindo{
@@ -29,7 +32,6 @@
 .hero-apresentacao{
     font-weight: 400;
     margin-top: .3em;
-    /* display: inline-flex; */
 }
 
 .texto-dinamico{
@@ -99,3 +101,4 @@
     }
     
 }
+
