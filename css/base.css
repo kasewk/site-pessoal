@@ -1,18 +1,28 @@
+:root{
+	--marrom-principal: #E6CCB2;
+	--hero-color: #E9ECEF;
+}
 
 html, body, main, header, main nav {
 	font-family:  'Roboto', sans-serif;
 	overflow-x: hidden;
 	width: 100vw;
 	height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
-:root{
-	--marrom-principal: #E6CCB2;
-	--hero-color: #E9ECEF;
+:target {
+  scroll-margin-top: 5em;
+}
+
+header{
+    overflow-y: hidden;
 }
 
 .secao{
     display: flex;
+    /* transition: all .4s; */
     flex-direction: column;
     align-items: center;
     padding: 1em;
@@ -47,4 +57,16 @@ html, body, main, header, main nav {
         font-size: 1.8em;
         padding-bottom: .3em;
     }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .secao{
+        padding: 4em;
+    }
+
+    .titulo{
+        font-size: 2em;
+    }
+    
 }

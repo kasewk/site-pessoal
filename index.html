@@ -24,36 +24,40 @@
             <img src="img/logo.svg" alt="Logo" class="menu-logo" width="100px">
             <nav class="menu-nav">
                 <ul class="menu-ul">
-                    <li class="menu-item">Início</li>
-                    <li class="menu-item">Sobre</li>
-                    <li class="menu-item">Skills</li>
-                    <li class="menu-item">Contato</li>
+                    <li class="menu-item"><a href="#hero">Início</a></li>
+                    <li class="menu-item"><a href="#sobre">Sobre</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <p class="hero-ola">Olá Mundo,</p>
             <h1 class="hero-apresentacao">
                 <span>Eu sou o <b class="hero-apresentacao-nome">Paulo</b></span>
             </h1>
         </section>
 
-        <section class="sobre secao">
+        <section id="sobre" class="sobre">
             <div class="div-titulo">
                 <h2 class="titulo">Sobre Mim</h2>
             </div>
-            <img class="secao-img" src="img/sobre.svg" alt="Sobre">
-            <p class="sobre-texto">Sou estudante de Gestão da Tecnologia da Infomação na FATEC, também sou formado em Técnico em Informática pela ETEC.
-            Adoro tecnologia e tive meu primeiro contato com programação aos 12 anos.
-           
-            </p><p class="sobre-texto">Hoje estou buscando minha primeira oportunidade para ingressar
-            no mercado de trabalho na área de desenvolvimento de software.</p>
+            <div class="sobre-conteudo">
+                <img class="secao-img sobre-img" src="img/sobre.svg" alt="Sobre">
+                <div class="sobre-conteudo-texto">
+                    <p class="sobre-texto">Sou estudante de Gestão da Tecnologia da Infomação na FATEC, também sou formado em Técnico em Informática pela ETEC.
+                    Adoro tecnologia e tive meu primeiro contato com programação aos 12 anos.
+                   
+                    </p><p class="sobre-texto">Hoje estou buscando minha primeira oportunidade para ingressar
+                    no mercado de trabalho na área de desenvolvimento de software.</p>
+                </div>
+            </div>
         </section>
 
-        <section class="tecnologias secao">
+        <section id="skills" class="tecnologias secao">
             <div class="div-titulo skills">
                 <h2 class="titulo">Skills</h2>
             </div>
@@ -71,7 +75,7 @@
             
         </section>
 
-        <section class="contato secao">
+        <section id="contato" class="contato secao">
             <div class="div-titulo">
                 <h2 class="titulo">Contato</h2>
             </div>
