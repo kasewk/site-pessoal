@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1em;
+    
 }
 
 .sobre-conteudo{
@@ -12,9 +13,9 @@
     padding: 1em;
 }
 
-.sobre-conteudo-texto{
-    width: 30em;
-}
+/* .sobre-conteudo-texto{
+    width: 40em;
+} */
 
 .sobre-texto{
     text-align: justify;

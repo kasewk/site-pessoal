@@ -5,6 +5,8 @@
 	--hero-color: #E9ECEF;
 }
 
+
+
 html, body, main, header, main nav {
 	font-family:  'Roboto', sans-serif;
 	width: 100vw;
@@ -18,7 +20,6 @@ body{
 :target {
   scroll-margin-top: 5em;
 }
-
 
 .secao{
     display: flex;

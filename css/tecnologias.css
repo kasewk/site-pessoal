@@ -1,6 +1,7 @@
 .tecnologias{
     height: auto;
     background-color: var(--marrom-principal);
+    
 }
 
 .tecnologias-cards{
@@ -46,6 +47,10 @@
        flex-wrap: nowrap;
        width: 100%;
        flex-basis: 25%;
+   }
+
+   .tecnologias-img{
+       width: 40%;
    }
     
 }
