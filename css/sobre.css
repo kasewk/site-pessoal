@@ -12,6 +12,10 @@
     padding: 1em;
 }
 
+.sobre-conteudo-texto{
+    width: 30em;
+}
+
 .sobre-texto{
     text-align: justify;
     line-height: 1.1;
@@ -33,9 +37,13 @@
 
 @media screen and (min-width: 1024px) {
 
+    .sobre{
+        padding-top: 4em;
+    }
+
     .sobre-conteudo{
         flex-direction: row;
-        padding: 4em;
+        padding: 12em;
     }
 
     .sobre-img{

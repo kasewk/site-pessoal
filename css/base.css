@@ -47,6 +47,34 @@ body{
     text-transform: uppercase;
 }
 
+.fade{
+    opacity: 0;
+    transition: opacity 800ms ease-in;
+}
+
+.fade.exibir{
+    opacity: 1;
+}
+
+.esquerda{
+    transform: translateX(-50%);
+}
+
+.direita{
+    transform: translateX(50%);
+}
+
+.esquerda,
+.direita{
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.esquerda.exibir,
+.direita.exibir{
+    transform: translateX(0);
+    opacity: 1;
+}
 @media screen and (min-width: 768px) {
 
     .secao{
