@@ -19,9 +19,7 @@
     vertical-align: top;
     transition: ease 1.5s;
 }
-.social div:hover{
-    transform: rotate(-1deg) scale(1.1, 1.1);
-}
+
 
 .social-img{
     width: 15em;
@@ -65,4 +63,10 @@
         height: 5em;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    .social div:hover{
+        transform: rotate(-1deg) scale(1.1, 1.1);
+    }
 }
