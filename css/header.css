@@ -78,8 +78,8 @@
     }
     
     .menu-item a:hover{
-    color: rgb(156, 6, 6);
-}
+        color: rgb(156, 6, 6);
+    }
 
     .menu-item a:before {
         position: absolute;
@@ -91,6 +91,7 @@
         width: 0%;
         content: "";
         background-color: rgb(156, 6, 6);
+        opacity: 0;
     }
 
     .menu-item  a:hover:before{
